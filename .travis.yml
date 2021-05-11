@@ -26,4 +26,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push cjerochim/simple-node
+  - docker push cjerochim/simple-node 
